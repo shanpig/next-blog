@@ -7,6 +7,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@material-tailwind/react": "^1.0.6",
     "@tailwindcss/line-clamp": "^0.4.0",
     "classnames": "2.3.1",
     "date-fns": "2.21.3",
