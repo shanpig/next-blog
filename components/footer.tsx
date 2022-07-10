@@ -1,15 +1,13 @@
-import Container from './container'
-import { Typography } from '@material-tailwind/react'
+import { Typography } from '@material-tailwind/react';
+import Container from './container';
 
-const Footer = () => {
-  return (
-    <footer className="bg-neutral-50 border-t border-neutral-200">
-      <Container>
-        <Typography variant='h5' ><div className="font-mono">Proudly presented by shanpig.</div></Typography>
+const Footer = () => (
+  <footer className="bg-neutral-50 border-t border-neutral-200">
+    <Container>
+      <Typography variant="h5"><div className="font-mono">Proudly presented by shanpig.</div></Typography>
 
-      </Container>
-    </footer>
-  )
-}
+    </Container>
+  </footer>
+);
 
-export default Footer
+export default Footer;
