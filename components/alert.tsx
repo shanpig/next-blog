@@ -1,6 +1,7 @@
 import cn from 'classnames';
-import Container from './container';
+
 import { EXAMPLE_PATH } from '../lib/constants';
+import Container from './container';
 
 type Props = {
   preview?: boolean

@@ -1,5 +1,5 @@
-import Author from 'types/author';
 import PLACEHOLDER_IMAGE from 'public/assets/blog/authors/avatar-placeholder.svg';
+import Author from 'types/author';
 
 export const EXAMPLE_PATH = 'blog-starter-typescript';
 export const CMS_NAME = 'Markdown';

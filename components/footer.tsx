@@ -1,4 +1,5 @@
 import { Typography } from '@material-tailwind/react';
+
 import Container from './container';
 
 const Footer = () => (

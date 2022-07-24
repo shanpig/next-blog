@@ -1,6 +1,6 @@
 import {
-  Navbar, Typography, Menu, MenuHandler, MenuList, MenuItem,
-} from '@material-tailwind/react';
+  Menu, MenuHandler, MenuItem,
+  MenuList, Navbar, Typography } from '@material-tailwind/react';
 import { FaAngleDown as ArrowDown } from 'react-icons/fa';
 
 const Intro = () => (
@@ -20,9 +20,9 @@ const Intro = () => (
             <Menu>
               <MenuHandler>
                 <div className="flex items-center gap-2">
-                    <span>Categories</span>
-                    <ArrowDown />
-                  </div>
+                  <span>Categories</span>
+                  <ArrowDown />
+                </div>
               </MenuHandler>
               <MenuList>
                 <MenuItem>Menu Item 1</MenuItem>
