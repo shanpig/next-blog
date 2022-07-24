@@ -28,6 +28,8 @@
       {
         "namedComponents": "arrow-function"
       }
-    ]
+    ],
+    "jsx-a11y/img-redundant-alt": "off",
+    "object-curly-newline": "off"
   }
 }

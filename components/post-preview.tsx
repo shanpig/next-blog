@@ -5,12 +5,12 @@ import CoverImage from './cover-image';
 import Author from '../types/author';
 
 type Props = {
-  title: string
-  coverImage: string
-  date: string
-  excerpt: string
-  author: Author
-  slug: string
+  title: string;
+  coverImage: string;
+  date: string;
+  excerpt: string;
+  author: Author;
+  slug: string;
 };
 
 const PostPreview = ({
@@ -27,14 +27,14 @@ const PostPreview = ({
     </div>
     <h3 className="text-3xl mb-3 leading-snug">
       <Link as={`/posts/${slug}`} href="/posts/[slug]">
-        <a className="hover:underline">{title}</a>
+        <div className="hover:underline">{title}</div>
       </Link>
     </h3>
     <div className="text-lg mb-4">
       <DateFormatter dateString={date} />
     </div>
     <p className="text-lg leading-relaxed mb-4 line-clamp-3">{excerpt}</p>
-    <Avatar name={author.name} picture={author.picture} />
+    <Avatar author={author} />
   </div>
 );
 

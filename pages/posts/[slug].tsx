@@ -8,14 +8,13 @@ import PostHeader from '../../components/post-header';
 import Layout from '../../components/layout';
 import { getPostBySlug, getAllPosts } from '../../lib/api';
 import PostTitle from '../../components/post-title';
-import { CMS_NAME } from '../../lib/constants';
 import markdownToHtml from '../../lib/markdownToHtml';
 import PostType from '../../types/post';
 
 type Props = {
-  post: PostType
-  morePosts: PostType[]
-  preview?: boolean
+  post: PostType;
+  morePosts: PostType[];
+  preview?: boolean;
 };
 
 const Post = ({ post, morePosts, preview = true }: Props) => {
@@ -32,12 +31,7 @@ const Post = ({ post, morePosts, preview = true }: Props) => {
         ) : (
           <article className="mb-32">
             <Head>
-              <title>
-                {post.title}
-                {' '}
-                | Next.js Blog Example with
-                {CMS_NAME}
-              </title>
+              <title>{post.title}</title>
               <meta property="og:image" content={post.ogImage.url} />
             </Head>
             <PostHeader
@@ -58,8 +52,8 @@ export default Post;
 
 type Params = {
   params: {
-    slug: string
-  }
+    slug: string;
+  };
 };
 
 export async function getStaticProps({ params }: Params) {
