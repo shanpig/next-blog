@@ -1,4 +1,4 @@
-import markdownStyles from './markdown-styles.module.css';
+import markdownStyles from './github.markdown.module.css';
 
 type Props = {
   content: string;
@@ -7,7 +7,7 @@ type Props = {
 const PostBody = ({ content }: Props) => (
   <div className="max-w-2xl mx-auto">
     <div
-      className={markdownStyles.markdown}
+      className={`${markdownStyles.markdownBody} light`}
       // FIXME: 有機會就拿掉
       // eslint-disable-next-line react/no-danger
       dangerouslySetInnerHTML={{ __html: content }}
