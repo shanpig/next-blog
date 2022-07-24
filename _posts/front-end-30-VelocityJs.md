@@ -10,6 +10,8 @@ tags:
 
 今天要來介紹的，是一個相當常見的動畫引擎：[Velocity.js](http://velocityjs.org/)。
 
+---
+
 # 簡介
 Velocity 是由 Julian Shapiro 開發的簡便動畫引擎，提供順暢且語法簡易的程式碼。目前其授權為 MIT 授權，為開放軟體。
 
