@@ -1,4 +1,4 @@
-import defaultAuthor from 'constants/author';
+import { defaultAuthor } from 'lib/constants';
 import Author from 'types/author';
 
 type Props = {

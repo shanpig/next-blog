@@ -23,13 +23,10 @@
     "linebreak-style": "off",
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
-    "react/function-component-definition": [
-      2,
-      {
-        "namedComponents": "arrow-function"
-      }
-    ],
+    "react/function-component-definition": "off",
     "jsx-a11y/img-redundant-alt": "off",
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "react/jsx-props-no-spreading": "off",
+    "operator-linebreak": "off"
   }
 }
