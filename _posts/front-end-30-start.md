@@ -8,6 +8,7 @@ author:
   picture: '/assets/blog/authors/shanpig.jpg'
 ogImage:
   url: ''
+  
 ---
 
 幾個月前，在看到幾篇鼓勵 IT 人寫部落格的文章，滿腔熱血之下，下定決心開始寫作，也在 wordpress 創了一個 技術部落格：山豬的 IT 世界，主要內容是前端知識的分享和教學。
